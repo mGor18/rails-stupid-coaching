@@ -1,7 +1,11 @@
 <div class="container">
-    <p class="question"><%= @question =%></p>
-    <p class="speaker">-you</p>
+    <p class="question">'<%= @question %>'</p>
+    <p class="speaker">'-you'</p>
 
-    <p class="answer"><%= @answer =%></p>
-    <p class="speaker">-Coach</p>
+    <p class="answer">'<%= @answer %>'</p>
+    <p class="speaker">'-Coach'</p>
+</div>
+
+<div class="back-link">
+  <%=link_to 'Ask another question!', ask_path %>
 </div>
